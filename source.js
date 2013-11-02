@@ -4,5 +4,6 @@ var obj = {
   },
   ab: function() {},
   foo: function() {},
-  whodoneit: function() {}
+  whodoneit: function() {},
+  spam: function() {}
 };
