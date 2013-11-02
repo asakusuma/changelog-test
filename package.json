@@ -1,28 +1,9 @@
 {
-  "name": "li-backbone",
+  "name": "changelog-test",
   "version": "0.2.0",
-  "private": true,
-  "scripts": {
-    "start": "node app.js",
-    "test": "node_modules/venus/bin/venus run -t testing/specs -n"
-  },
   "dependencies": {},
   "devDependencies": {
-    "express": "*",
     "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.6.0",
-    "grunt-contrib-uglify": "~0.2.2",
-    "grunt-contrib-compass": "*",
-    "grunt-contrib-copy": "*",
-    "grunt-contrib-requirejs": "*",
-    "grunt-amd-dist": "*",
-    "grunt-include-replace": "*",
-    "grunt-contrib-watch": "*",
-    "grunt-regex-replace": "*",
-    "grunt-express": "*",
-    "grunt-shell": "*",
-    "grunt-execute": "*",
-    "venus": "*",
     "grunt-conventional-changelog": "*"
   }
 }
