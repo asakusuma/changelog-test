@@ -2,5 +2,6 @@ var obj = {
   broken: function() {
 
   },
-  ab: function() {}
+  ab: function() {},
+  foo: function() {}
 };
