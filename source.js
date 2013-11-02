@@ -3,5 +3,6 @@ var obj = {
 
   },
   ab: function() {},
-  foo: function() {}
+  foo: function() {},
+  whodoneit: function() {}
 };

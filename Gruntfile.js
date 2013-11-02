@@ -6,7 +6,8 @@ module.exports = function(grunt) {
     changelog: {
       options: {
         dest: 'changelog.md',
-        github: 'asakusuma/changelog-test'
+        github: 'asakusuma/changelog-test',
+        editor: 'sublime -w'
       }
     },
   });
