@@ -5,7 +5,8 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     changelog: {
       options: {
-        dest: 'changelog.md'
+        dest: 'changelog.md',
+        github: 'asakusuma/changelog-test'
       }
     },
   });
