@@ -3,19 +3,18 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    changelog: {
-      options: {
-        dest: 'changelog.md',
-        github: 'asakusuma/changelog-test',
-        editor: 'sublime -w'
+    'changelog_generate': {
+      test: {
+        files: {
+          src:['test.js']
+        }
       }
     },
   });
 
-
-  grunt.loadNpmTasks('grunt-conventional-changelog');
+  grunt.loadNpmTasks('grunt-changelog-generate');
 
   grunt.registerTask('default', [
-    'changelog'
+    'changelog_generate'
   ]);
 };
